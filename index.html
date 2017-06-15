@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>clase drag and drop</title>
+	<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+	<section id="container" ondrop="drop(event)" ondragover="finalDrop(event)">
+		
+		<div id="padre">
+			<div class="tipo" id="contiene" ondrop="drop(event)" ondragover="finalDrop(event)"></div>
+		</div>
+		
+		<img src="assets/img/SAILOR-MOON-CRYSTAL-TENDRÁ-SECUELA-4.jpg" alt="" class="sailor" draggable="true" ondragstart="drag(event)" id="sailor1">
+
+		<img src="assets/img/1.jpg" alt="" class="sailor" draggable="true" ondragstart="drag(event)" id="sailor2">
+
+		<img src="assets/img/c840f51ef9509296aa0fd1c738d1c6b6.jpg" alt="" class="sailor" draggable="true" ondragstart="drag(event)" id="sailor3">
+		
+	</section>
+	
+	<script type="text/javascript" src="assets/js/main.js"></script>
+</body>
+</html>

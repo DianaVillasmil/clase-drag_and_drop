@@ -1,0 +1,25 @@
+#container {
+	width: 500px
+	height:250px;
+	margin:0 auto;
+	border: 1px solid black;
+	text-align: center;
+}
+
+#padre {
+	width: 580px;
+	height: 120px;
+	display: inline-block;
+}
+
+.tipo {
+	background-color: pink;
+}
+
+img {
+	height: 20px;
+}
+
+#sailor1, #sailor2, #sailor3{
+	height: 100px;
+}
